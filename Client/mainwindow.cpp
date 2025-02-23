@@ -34,7 +34,7 @@ void MainWindow::updateCommand(const QString & text)
 void MainWindow::updateParams(const QString & text)
 {
     this->params = text;
-    //qDebug().noquote() << "param = " << param;
+    //qDebug().noquote() << "params = " << params;
 }
 
 void MainWindow::send()
